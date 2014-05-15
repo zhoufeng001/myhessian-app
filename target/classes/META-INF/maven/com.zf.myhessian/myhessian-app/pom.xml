@@ -5,29 +5,30 @@
   <groupId>com.zf.myhessian</groupId>
   <artifactId>myhessian-app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>jar</packaging>  
 
   <name>myhessian-app</name>
-  <url>http://maven.apache.org</url>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  
+  
   <dependencies>
     
     <dependency>
       <groupId>com.zf.myhessian</groupId>
       <artifactId>myhessian-client</artifactId>
       <version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    </dependency> 
     
      <dependency>
-		<groupId>com.caucho</groupId>
+		<groupId>com.caucho</groupId> 
 		<artifactId>hessian</artifactId>
 		<version>3.1.5</version>
 	</dependency>
-    
-    
+	
+	
   </dependencies>
+  
 </project>
