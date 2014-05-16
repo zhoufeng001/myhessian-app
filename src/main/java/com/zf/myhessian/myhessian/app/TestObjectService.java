@@ -12,7 +12,7 @@ public class TestObjectService {
 
 	ApplicationContext context = null ;
 	ObjectService os = null ;
-
+	//fdsafasd
 	@Before
 	public void init(){
 		context = new ClassPathXmlApplicationContext("remoting-client.xml");  //这里只是你声明的bean的xml文件所在的路径
@@ -21,7 +21,7 @@ public class TestObjectService {
 
 	@Test
 	public void testGet(){
-		Person person = os.getPerson(1) ;
+		Person person = os.getPerson(2) ;
 		printPerson(person) ;
 	}
 
