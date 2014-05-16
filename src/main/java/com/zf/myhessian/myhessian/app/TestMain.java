@@ -6,6 +6,11 @@ import org.myhessian.client.MyService;
 
 import com.caucho.hessian.client.HessianProxyFactory;
 
+/**
+ * 客户端测试
+ * @author is_zhoufeng
+ *
+ */
 public class TestMain {
 
 	public static void main(String[] args) throws MalformedURLException {
